@@ -1,22 +1,54 @@
 body{
     display: grid;
-    grid-template-areas:'nav nav nav nav'
+    grid-template-areas:'navbar navbar navbar navbar'
                         'header header header header' 
                         'section section section section'
                         'footer footer footer footer';
     grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 10vh 25vh 50vh 10vh;
-    margin: 0px;
+    grid-template-rows: 10vh 50vh 35vh 5vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    cursor: url(../images/dragon-ball2.png), default;
+
 }
 footer{
     grid-area: footer;
 }
 header{
+    background-image: url(../images/ZW1734A_5bce88df98230.jpg);
+    background-size: cover;
     grid-area: header;
+    background-position: center;
+    
 }
+
 nav{
-    grid-area: nav;
+    background-color: black;
+    grid-area: navbar;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: url(../images/dragon-white.png), default;
+    
 }
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: orangered;
+    cursor: url(../images/dragon-white.png), default;
+    
+}
+nav > img{
+    width: 90px;
+    filter: contrast(60%);
+    filter: brightness(130%)
+    
+}
+
+
 
 section{
     grid-area: section;
