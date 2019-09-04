@@ -1,7 +1,4 @@
-<nav>
-  <h1>Academia - Mastertech - Estação Hack  
-    <img src="https://ftp.mastertech.com.br/Nginx-Fancyindex-Theme/Nginx-Fancyindex-Theme-light/estacao-logo.png"  width="100" /></h1>
-</nav>
+
 
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="133" height="20">
