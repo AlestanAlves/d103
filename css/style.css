@@ -7,7 +7,18 @@ body{
     grid-template-columns: 25vw 25vw 25vw 25vw;
     grid-template-rows: 10vh 25vh 50vh 10vh;
     margin: 0px;
-    
-
-
 }
+footer{
+    grid-area: footer;
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+
+section{
+    grid-area: section;
+}
+
