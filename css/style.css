@@ -6,7 +6,7 @@ aside{
 
 aside h2, aside p {
     color: white;
-
+    
 }
 
 aside h2 {
@@ -15,16 +15,23 @@ aside h2 {
 body{
     display: grid;
     grid-template-areas:'navbar navbar navbar navbar'
-                        'header header header aside' 
-                        'section section section aside'
-                        'footer footer footer footer';
+    'header header header aside' 
+    'section section section aside'
+    'footer footer footer footer';
     grid-template-columns: 25vw 25vw 25vw 25vw;
     grid-template-rows: 10vh 50vh 90vh 5vh;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     cursor: url(../images/dragon-ball2.png), default;
-
+    
 }
+
+body::-webkit-scrollbar{
+    width: 0px; /*remove scrollbar space */
+    background: transparent; 
+    /* Optional: just make scrollbar invisible */
+}
+
 footer{
     grid-area: footer;
     background-color: black;
@@ -77,6 +84,18 @@ section a, section h2{
 }
 
 section form{
-    
+    text-align: center;
 }
 
+section input:focus{
+    background-color: rgb(216, 216, 216);
+}
+
+section input::placeholder{
+    color: rgb(139, 139, 139);
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+}
