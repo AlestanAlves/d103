@@ -1,11 +1,25 @@
+aside{
+    background-color: black;
+    padding: 10px;
+    grid-area: aside;
+}
+
+aside h2, aside p {
+    color: white;
+
+}
+
+aside h2 {
+    text-align: center;
+}
 body{
     display: grid;
     grid-template-areas:'navbar navbar navbar navbar'
-                        'header header header header' 
-                        'section section section section'
+                        'header header header aside' 
+                        'section section section aside'
                         'footer footer footer footer';
     grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 10vh 50vh 35vh 5vh;
+    grid-template-rows: 10vh 50vh 90vh 5vh;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     cursor: url(../images/dragon-ball2.png), default;
@@ -13,6 +27,7 @@ body{
 }
 footer{
     grid-area: footer;
+    background-color: black;
 }
 header{
     background-image: url(../images/ZW1734A_5bce88df98230.jpg);
@@ -52,5 +67,16 @@ nav > img{
 
 section{
     grid-area: section;
+    background-color: rgb(69, 69, 199);
+    align-items: center;
+}
+
+section a, section h2{
+    color: white;
+    text-align: center;
+}
+
+section form{
+    
 }
 
