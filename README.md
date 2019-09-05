@@ -43,7 +43,16 @@
     background: transparent; 
     /* Optional: just make scrollbar invisible */`
     
-    ## Feel the force
+ ### Dicas
+ 
+ - **_Dividir telas no VS Code_** `ctrl + alt + ->`
+ - **_Subir linhas no VS Code_** `alt + setinha para cima`
+ - **_Reindentar linhas no VS Code_** `ctrl + shift + p`
+ - **_Quebrar texto no VS Code_** `alt + z`
+ - **_Comentar no Código VS Code_** `ctrl + ;`
+ 
     
-    <img src="https://media.giphy.com/media/3ornka9rAaKRA2Rkac/source.gif"  width="50%" />
+ ## Feel the force
+    
+ <img src="https://media.giphy.com/media/3ornka9rAaKRA2Rkac/source.gif"  width="50%" />
     
