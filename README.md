@@ -14,7 +14,7 @@
  </p> 
  
    ###     CSS Grid
-> Aula sobre os primeiros passos com CSS3 Grid.
+  >Aula sobre os primeiros passos com CSS3 Grid.
 
 - **Desenhe o layout**
 
@@ -42,6 +42,8 @@
     width: 0px; /*remove scrollbar space */
     background: transparent; 
     /* Optional: just make scrollbar invisible */`
+    
+    ## Feel the force
     
     <img src="https://media.giphy.com/media/3ornka9rAaKRA2Rkac/source.gif"  width="50%" />
     
